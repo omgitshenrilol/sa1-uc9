@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">   
+    <title>Cube</title>
+    <meta name="descripition" content="Site voltado para a venda de produtos do universo gamer"/>
+    <meta name="keywords" content="Jogos, consoles,PC gamer,acessórios"/>
+    <meta name="author" content="Henrique Borges" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/style.css">
+    <!--Link do CSS do bootstrao (não remover)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body onload="mostrarPopup()">
+    <header>
+        <div class="container-grid posicionamento-header">
+            <a href="">
+                <img src="Img/kisspng-white-cube-sugar-cubes-clip-art-butte-cube-5ac20698e5ed65 2.png" alt=""></a> 
+
+                <a href="#" id="barras">
+                    <img class="barras" src="Img/IconButton_B941C2C3_B310_5215_41C6_ACA806195412.png" alt="menu de barras">
+                    </a>
+                <nav id= "menu" class="menu a">
+                <a href="">Home</a>
+                <a href="">Jogos</a>
+                <a href="">Contatos</a>
+                <a href="pages/login.html">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    
+<!-- <div class="carrossel" id="carrossel">
+  <img src="Img/banner.png" alt="gamer 1">
+  <img src="Img/carrosel.png" alt="gamer 2">
+  <img src="Img/carrossel2.png" alt="gamer 3">
+  
+</div> -->
+
+
+<div class="banner">
+    <div class="container-grid
+    posicao-texto">
+        <div class="texto-banner">
+            <h2>Bem-vindos á nossa loja :D</h2>
+    <p>Venha fazer parte da comunidade gamer! Conheça nossos </p>
+    <p>produtos e comece a  aproveitar o melhor de cada jogo. </p> 
+    <p>Nós temos diversos artigos, desde celular até PC’s Gamer </p>
+    <p>completo. Conheça nossa linha de consoles, de smatphones,</p> 
+    <p>noteboos e acessórios  voltadso ao universos gamer para voce</p> 
+    <p>obter as  melhores jogatinas e ter o seus melhores gg’s.</p>
+        </div>
+    </div>
+</div>
+
+<section class="filtro-produtos">
+    <div class="filtro container">
+        
+        <a href=""><img src="Img/Ellipse 1.png" alt="PC gamer"></a>
+        <a href=""><img src="Img/Ellipse 2.png" alt="Notebooks"></a>
+        <a href=""><img src="Img/Ellipse 3 .png" alt="Consoles"></a>
+        <a href=""><img src="Img/Ellipse 4).png" alt="smatphones"></a>
+        <a href=""><img src="Img/Ellipse 5).png" alt="acessórios"></a>
+    </div>
+</div>
+
+<div class="produtos">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Nossos produtos</h3>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img src="./Img/pc gamer.png" class="Pc gamer" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pc gamer</h5>
+                  <p class="card-text">Pc Gamer Mancer, Ryzen
+                    3 Pro 4350g, 8gb Ddr4, 
+                    Ssd 240gb.</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 20rem;">
+                <img src="./Img/xbox.png" class="Xbox" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Xbox series s</h5>
+                  <p class="card-text">Console Microsoft Xbox
+                    Series S, 512GB,
+                    Branco.</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 20rem;">
+                <img src="./Img/ps5.png" class="Ps5" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">PlayStation®5</h5>
+                  <p class="card-text">Console PlayStation®5. 
+                    Versão com leitor de disco.
+                  </p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <p></p>
+              <p></p>
+                <div class="card" style="width: 20rem;">
+                  <img src="./Img/celular.png" class="Celular" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Celular Samsung</h5>
+                    <p class="card-text">Celular Samsung Galaxy A52s 5G Preto 
+                      128GB Tela 6.5 Cam 64MP</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 20rem;">
+                  <img src="./Img/fone.png" class="Xbox" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Headset gamer Razer</h5>
+                    <p class="card-text">Headset Kraken X Lite Multi 
+                      Platform Surround 7.1.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 20rem;">
+                  <img src="./Img/notebook.png" class="Ps5" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Macbook</h5>
+                    <p class="card-text">MacBook Air (de 13 polegadas, 
+                      Processador M1 da Apple.
+                    </p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<section class="secao-sobre">
+    <div class="conteudo-sobre container">
+        <div class="row">
+            <div class="texto-sobre col">
+            <h2>Conheça nosso notebook gamer super poderoso!</h2>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis num é.Mais 
+                vale um bebadis conhecidiss, que um alcoolatra anonimis.Sapien in monti palavris qui 
+                num significa nadis i pareci latim. Praesent malesuada urna nisi, quis volutpat
+                 erat hendrerit non. Nam vulputate dapibus.Diuretics paradis num copo é 
+                motivis de denguis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.
+                Copo furadis é disculpa de bebadis, arcu quam euismod magna.Mé faiz elementum girarzis,
+                 nisi eros vermeio.</p>
+             </div>
+                 <div class="container-imagem col">
+                     <img src="Img/notebook gamer.png" alt="Imagem de um Pc gamer" width="100%">
+                </div> 
+        </div>
+    </div>
+</section>
+<footer>
+  <div class="rodape">
+    <div class="links-footer">
+      <div class="links">
+        <h2>Institucional</h2>
+        <ul>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Dúvidas frequentes</a></li>
+          <li><a href="#">Política de privacidade</a></li>
+        </ul>
+      </div>
+      <div class="links">
+        <h2>Atendimento</h2>
+        <ul>
+          <li><a href="#">Telefone</a></li>
+          <li><a href="#">Nosso endereço</a></li>
+        </ul>
+      </div>
+      <div class="links">
+        <h2>Nos siga :D</h2>
+        <ul>
+          <li><a href="#">Fabebook</a></li>
+          <li><a href="#">Instragram</a></li>
+          <li><a href="#">Youtube</a></li>
+        </ul>
+      </div>/
+      <div class="links">
+        <h2>Cadastre-se no nosso site!</h2>
+        <form action="">
+          <input id="campo-email" type="email" placeholder="E-mail">
+          <button onclick="enviarEmail()" class="botao-cadastrar">Cadastrar</button> 
+        </form>
+      </div>
+    </div> 
+  </div>
+</footer>
+
+
+
+<!--Link p o js do bootstrap (não remover)-->
+<script src="js/jquery-3.6.0.js"></script>  
+<script src="js/script.js"></script>  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
